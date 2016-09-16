@@ -1,0 +1,31 @@
+﻿<Properties StartupItem="HW1/HW1.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HW1/IndexedNumsStream.cs">
+    <Files>
+      <File FileName="HW1/IndexedNumsStream.cs" Line="86" Column="3" />
+      <File FileName="HW1/NumberedTextWriter.cs" Line="34" Column="1" />
+      <File FileName="HW1/NUnitTestClass.cs" Line="111" Column="36" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="HW1" expanded="True">
+            <Node name="HW1" expanded="True">
+              <Node name="CS422" expanded="True">
+                <Node name="NUnitTestClass" expanded="True">
+                  <Node name="NumberedTextWriter_EmptyString_ExpectPass" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/konsada/HW1/HW1/NumberedTextWriter.cs" line="34" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

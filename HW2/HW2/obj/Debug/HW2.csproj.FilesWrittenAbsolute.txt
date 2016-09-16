@@ -1,0 +1,6 @@
+/home/konsada/HW2/HW2/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/konsada/HW2/HW2/bin/Debug/nunit.framework.dll
+/home/konsada/HW2/HW2/bin/Debug/HW2.dll.mdb
+/home/konsada/HW2/HW2/bin/Debug/HW2.dll
+/home/konsada/HW2/HW2/obj/Debug/HW2.dll
+/home/konsada/HW2/HW2/obj/Debug/HW2.dll.mdb
