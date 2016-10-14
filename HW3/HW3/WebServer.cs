@@ -18,6 +18,7 @@ namespace CS422
 
 		public static bool Start (int port, string responseTemplate)
 		{
+			Console.WriteLine("Starting this fucking thing");
 			TcpListener listener = null;
 			if (port < 0 || port > 65535) {
 				throw new ArgumentOutOfRangeException ();
@@ -68,15 +69,18 @@ namespace CS422
 			string request = Encoding.ASCII.GetString (buf, 0, buf.Length);
 			requestLine = getRequestLine (request);
 
-			if (!validateRequest (requestLine))
+			if (!validateRequest (requestLine, ns))
 				return false;
 			else
 				return true;
 
 		}
-		protected bool validateRequest(string input)
+		protected bool validateRequest(string input, NetworkStream ns)
 		{
 			if ((getRequestMethod (input) != "GET") && (getRequestVersion (input) != "HTTP/1.1")) {
+				var fuck = BitConverter.GetBytes("Fuuuuuck, can you even HTTP????");
+				ns.Write(fuck, 0, fuck.Length);
+				ns.Flush();
 				return false;
 			}
 		}
